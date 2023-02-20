@@ -6,15 +6,15 @@ receiver = "example123@gmai.com"
 msg = "Hello, have a nice day"
 
 
-    #create connection
+     #create connection
 connection = smtplib.SMTP("smtp.gmail.com", 587)
 
-    #start TLS
+     #start TLS
 connection.starttls()
 print("Connection made successfully")
 
 
-    #login with app password
+     #login with app password
 connection.login(user=sender,password="example123")
 print("Logged in successfully") 
 
