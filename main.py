@@ -6,6 +6,7 @@ receiver = "example123@gmai.com"
 msg = "Hello, have a nice day"
 
 
+
      #create connection
 connection = smtplib.SMTP("smtp.gmail.com", 587)
 
